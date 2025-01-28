@@ -1,0 +1,7 @@
+algo = input('Digite QUALQUER coisa que quiser para saber qual a sua classe: ')
+print(f'O tipo primitivo desse valor é ', type(algo))
+print(f'Só tem espaços? {algo.isspace()}')
+print(f'É um número? {algo.isnumeric()}')
+print(f'É alfabético? {algo.isalpha()}')
+print(f'É decimal ? {algo.isdecimal()} ')
+print(f'É em minusculo? {algo.islower()}')
